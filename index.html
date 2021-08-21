@@ -17,10 +17,10 @@
     <main>
         <section class="container">
             <div class="row">
-                <div class="col col-lg-6">
+                <div class="col col-lg-6 col-12 col-sm-12">
                     <img class="img-fluid" src="images/mac.png" alt="">
                 </div>
-                <div class="col col-lg-6">
+                <div class="col col-lg-6 col-12 col-sm-12">
                     <div class="mt-4 mb-4">
                         <h1>customize your Blue 24 inch Imac With Apple M1 chip</h1>
                         <article>
@@ -31,56 +31,70 @@
                     </div>
                     <div class="mt-5 mb-5">
                         <h5>memory</h5>
-                        <button class="pc-upgrading-button"> 8GB unfied memory </button>
-                        <button class="pc-upgrading-button"> 16GB unfied memory </button>
+                        <button id="8gb-memory-upgrade" class="pc-upgrading-button"> 8GB unfied
+                            memory
+                        </button>
+                        <button id="16gb-memory-upgrade" class="pc-upgrading-button"> 16GB unfied
+                            memory
+                        </button>
                     </div>
                     <div class="mt-5 mb-5">
                         <h5>Storage</h5>
-                        <button class="pc-upgrading-button"> 256 GB SSD storage </button>
-                        <button class="pc-upgrading-button"> 512 GB SSD storage </button>
-                        <button class="pc-upgrading-button"> 1TB SSD storage </button>
+                        <button id="256gb-storage-upgrade"  class="pc-upgrading-button"> 256 GB SSD
+                            storage
+                        </button>
+                        <button id="512gb-storage-upgrade"  class="pc-upgrading-button"> 512 GB SSD
+                            storage
+                        </button>
+                        <button id="1TB-storage-upgrade"  class="pc-upgrading-button"> 1TB SSD
+                            storage
+                        </button>
                     </div>
                     <div class="mt-5 mb-5">
                         <h5>Choose your delivery Option</h5>
-                        <button class="pc-upgrading-button"> Friday August 25 Free Prime Delevery </button>
-                        <button class="pc-upgrading-button">Friday August 21 Delivery Charge $20 </button>
+                        <button id="delivery-date-aug-25" class="pc-upgrading-button"> Friday
+                            August 25 Free Prime Delevery
+                        </button>
+                        <button id="delivery-date-aug-21" class="pc-upgrading-button">Friday
+                            August 21 Delivery Charge $20
+                        </button>
                     </div>
 
                     <div>
                         <div class="d-flex justify-content-between">
                             <h5>Best Price</h5>
-                            <h5 class="me-5">$1299</h5>
+                            <h5 class="me-5">$ <span id="best-price">1299</span></h5>
                         </div>
                         <hr>
                         <div class="d-flex justify-content-between">
                             <h5>Extra Memory Cost</h5>
-                            <h5 class="me-5">$0</h5>
+                            <h5 class="me-5">$ <span id="memory-cost">0</span> </h5>
                         </div>
                         <hr>
                         <div class="d-flex justify-content-between">
                             <h5>Extra Storage Cost</h5>
-                            <h5 class="me-5">$0</h5>
+                            <h5 class="me-5">$<span id="storage-cost">0</span></h5>
                         </div>
                         <hr>
                         <div class="d-flex justify-content-between">
                             <h5>Delivery Charge</h5>
-                            <h5 class="me-5">$0</h5>
+                            <h5 class="me-5">$ <span id="delivery-charge">0</span> </h5>
                         </div>
                         <hr>
                         <div class="d-flex justify-content-between mb-5">
                             <h5>Total</h5>
-                            <h5 class="me-5">$1299</h5>
+                            <h5 class="me-5">$ <span id="total">1299</span></h5>
                         </div>
                         <div class="mt-5">
                             <h5>Add Promo Code</h5>
-                            <input type="text">
-                            <button type="button" class="btn btn-danger">Apply</button>
+                            <input id="promo-code" type="text">
+                            <button id="promo-code-applying-button" type="button" class="btn btn-danger">Apply</button>
                         </div>
                     </div>
                 </div>
             </div>
             <hr>
-            <h1 class="text-center mt-3 mb-4">Total $1299</h1>
+            <h1 class="text-center mt-3 mb-4">Total $ <span id="total-including-promo-code">1299</span> </h1>
         </section>
     </main>
     <script src="js/userInterctivity.js"></script>
